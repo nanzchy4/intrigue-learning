@@ -16,7 +16,7 @@ const CoursePageMain = () => {
 
     ,[] )
     return (
-        <div className='d-flex flex-wrap'  >  
+        <div className='d-flex flex-wrap'>  
                 {
                     courses.map(course => <SingleCard key={course.course_id} singleCourse={course}></SingleCard> )
                 }

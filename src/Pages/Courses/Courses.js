@@ -10,7 +10,7 @@ const Courses = () => {
     // const courseList = useLoaderData();
     return (
         <div>
-            <Container className='' >
+            <Container >
             <Row>
                 <Col xs={12} md={10}>
                    <CoursePageMain></CoursePageMain>
