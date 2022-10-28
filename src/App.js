@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from './layout/Main';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
+import Courses from './Pages/Courses/Courses';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,11 @@ const router = createBrowserRouter([
       {
         path: '/register',
         element: <Register></Register>
+      },
+      {
+        path: '/courses',
+        element: <Courses></Courses>,
+        // loader: ()=> fetch('http://localhost:5000/courses')
       }
     ]
     
